@@ -1,0 +1,22 @@
+{
+  "name": "week-2-solo-project",
+  "description": "Solo project for Week 2 - visualize a sorting algorithm with code!",
+  "main": "sort.js",
+  "authors": [
+    "Code Chrysalis"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jasmine-core": "jasmine#^2.6.4",
+    "lodash": "^4.17.4"
+  }
+}

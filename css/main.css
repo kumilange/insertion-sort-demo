@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #FFFFFF;
+    background: #212121;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+}
+
+/*
+* code-box
+*/
+
+#code-box {
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+#code {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1.4;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 20px;
+    background-color: #F9FBE7;
+    color: #424242;
+    border-radius: 5px;
+}
+.highlight {
+    background-color: #FFF59D;
+}
+
+/*
+* anim-box
+*/
+#anim-box {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    width: 55%;
+}
+.array-area {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 90px;
+}
+.elm {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 50px;
+    font-family: 'Indie Flower', cursive;
+    border: 2px solid grey;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: all .5s linear;
+}
+/* elm animation*/
+.elm0{ left: 0px; }
+.elm1{ left: 120px; }
+.elm2{ left: 240px; }
+.elm3{ left: 360px; }
+.elm4{ left: 480px; }
+.elm5{ left: 600px; }
+.pending { top: 110px; }
+
+
+#next-btn {
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    margin-top: 250px;
+    margin-right: 0;
+    margin-left: auto;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    transition: all .3s linear;
+}
+#next-btn:hover {
+    cursor: pointer;
+    opacity: .5;
+}
