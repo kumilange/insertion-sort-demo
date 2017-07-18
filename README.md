@@ -1,7 +1,8 @@
-# Insersion Sort
+# Insertion Sort
 
 ## Summary
 
+I'm a student at Code Chrysalis.
 One way to sort an array of numbers. Data is divided into sorted and unsorted portions. One by one, the unsorted values are inserted into their appropriate positions in the sorted subarray.
 
   Reference: (CS50 Study: https://study.cs50.net/insertion_sort)
