@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kumiko-haraguchi/insertion-sort/issues"
   },
-  "homepage": "https://github.com/kumiko-haraguchi/insertion-sort#readme"
+  "homepage": "https://github.com/kumiko-haraguchi/insertion-sort#readme",
+  "dependencies": {
+    "bower": "^1.8.0"
+  }
 }
