@@ -1,10 +1,11 @@
-# Insertion Sort
+# Insertion Sort Demo
+
+DEMO: https://insertion-sort-demo.herokuapp.com/
+![insertionsort](https://user-images.githubusercontent.com/28984604/29494954-050fffd2-85f0-11e7-888f-154b1c4e6dae.png)
 
 ## Summary
 
-I'm a student at Code Chrysalis.
-One way to sort an array of numbers. Data is divided into sorted and unsorted portions. One by one, the unsorted values are inserted into their appropriate positions in the sorted subarray.
-
+Insertion is one way to sort an array of numbers. Data is divided into sorted and unsorted portions. One by one, the unsorted values are inserted into their appropriate positions in the sorted subarray.
   Reference: (CS50 Study: https://study.cs50.net/insertion_sort)
 
 ## Technologies Used
@@ -21,17 +22,17 @@ One way to sort an array of numbers. Data is divided into sorted and unsorted po
 bower install jquery --save
 ```
 ```
-bower install jasmine --save
-```
-```
 bower install animate.css --save
 ```
-## Implementation
 
-It wasn't too difficult, too easy, matched my level perfectly. 
-These two key questions that I had took a while to figure out
--What’s ‘insert’ part?
--What’s ‘average case’ time complexity? 
+```
+bower install jasmine --save
+```
+
+Then open html with a browser!
+
+
+## Time complexity
 
 Best case —> О(n)
 [1, 2, 3, 4, 5, 6, 7]
@@ -41,19 +42,3 @@ Worst case —> O(n2)
 
 Average case —> О(n2) 
 [4, 3, 5, 6, 7, 2, 1]
-
-## Visualization
-
-My inspiration come from this.
-[visualgo] https://visualgo.net/en/sorting?slide=1
-
-Also Google's Design Color Pallet is a good resource to pick up colors.
-https://material.io/guidelines/style/color.html#color-color-palette
-
-## Known Issues
-
-What are some known bugs you have?
-
-## Resources and Sources
-
-Did you find anything that you thought was really helpful in helping you understand the algorithm?
